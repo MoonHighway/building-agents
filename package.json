@@ -13,7 +13,8 @@
     "guardrails": "tsx src/06-guardrails.ts",
     "ralph": "tsx src/07-ralph-loop.ts",
     "observe": "tsx src/08-observability.ts",
-    "image": "tsx src/09-image-agent.ts"
+    "image": "tsx src/09-image-agent.ts",
+    "sms": "tsx src/10-sms-agent.ts"
   },
   "dependencies": {
     "ai": "^6.0.0",
