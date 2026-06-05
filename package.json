@@ -14,7 +14,8 @@
     "ralph": "tsx src/07-ralph-loop.ts",
     "observe": "tsx src/08-observability.ts",
     "image": "tsx src/09-image-agent.ts",
-    "sms": "tsx src/10-sms-agent.ts"
+    "sms": "tsx src/10-sms-agent.ts",
+    "agents": "tsx src/11-multi-agent.ts"
   },
   "dependencies": {
     "ai": "^6.0.0",
