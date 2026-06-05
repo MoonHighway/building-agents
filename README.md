@@ -7,9 +7,6 @@ with the **Vercel AI SDK (v6)** and **AI Gateway**: tool calling, the agent loop
 multi-step tasks, and production patterns that keep agents safe and debuggable.
 Then we turn it up with a fun creative agent that generates and restyles real images.
 
-You should be comfy with TypeScript and `async/await`. Did Day 2? Great, this
-builds right on it. Didn't? You'll still be fine; we recap the essentials.
-
 ---
 
 ## ⚙️ Setup
@@ -19,9 +16,6 @@ npm install
 cp .env.example .env       # paste your AI Gateway key
 npm run tool               # smoke test, your first tool-calling agent
 ```
-
-Get a key at [vercel.com/dashboard](https://vercel.com/dashboard) → AI Gateway →
-API Keys. One key, every model, swap the string in `src/config.ts`.
 
 ---
 
