@@ -1,0 +1,28 @@
+{
+  "name": "building-ai-agents",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "CascadiaJS 2026, Building AI Agents (Eve Porcello)",
+  "scripts": {
+    "tool": "tsx src/01-tool-calling.ts",
+    "loop": "tsx src/02-agent-loop.ts",
+    "assistant": "tsx src/03-assistant.ts",
+    "multistep": "tsx src/04-multi-step.ts",
+    "approval": "tsx src/05-human-in-loop.ts",
+    "guardrails": "tsx src/06-guardrails.ts",
+    "ralph": "tsx src/07-ralph-loop.ts",
+    "observe": "tsx src/08-observability.ts",
+    "image": "tsx src/09-image-agent.ts"
+  },
+  "dependencies": {
+    "ai": "^6.0.0",
+    "dotenv": "^16.4.0",
+    "zod": "^3.24.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.19.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}
